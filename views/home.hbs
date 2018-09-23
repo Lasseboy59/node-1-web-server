@@ -7,7 +7,8 @@
   <body>
     {{> header}}
     <p>{{screamIt welcomeMessage}}</p>
-    <p>You see my updated homepage at: http://laurishostingpackage-com.stackstaging.com/loggedinpage.php</p>
+    <p>You see my updated homepage at:</p>
+    {{#link-to 'https://tranquil-hamlet-68322.herokuapp.com/project'}} <button type="button">Go elsewhere</button> {{/link-to}}
 
     {{> footer}}
 
